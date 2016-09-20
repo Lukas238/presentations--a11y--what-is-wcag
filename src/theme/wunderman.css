@@ -1,0 +1,70 @@
+/*@import url("reveal.css");*/
+@import url("white.css");
+@import url("bs-grids.css");
+@import '//fonts.googleapis.com/css?family=Lato:300,400';
+@import '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+.reveal {
+    background: url(//wunderman.com.ar/sites/all/themes/wunderman/logo.png) no-repeat 20px 20px / 15%;
+}
+*{
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 300 !important;
+}
+*.fa{
+	font-family: fontawesome !important;
+}
+strong{
+	font-weight: 400 !important;
+}
+a{
+	/*color: #111 !important;*/
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6{ 
+	color: #003399 !important;
+}
+.has-dark-background,
+.has-light-background{
+	color: #fff !important;
+}
+
+.has-dark-background a,
+.has-light-background a{
+	color: #fff !important;
+	/*text-decoration: underline;*/
+}
+
+
+.has-dark-background h1,
+.has-dark-background h2,
+.has-dark-background h3,
+.has-dark-background h4,
+.has-dark-background h5,
+.has-dark-background h6,
+.has-light-background h1,
+.has-light-background h2,
+.has-light-background h3,
+.has-light-background h4,
+.has-light-background h5,
+.has-light-background h6{
+	color: #fff !important;
+}
+
+
+.reveal section img{
+	border: none;
+	box-shadow: none;
+}
+
+.reveal blockquote{
+	width: 80% !important;
+}
+.reveal blockquote p{
+	margin: 0;
+}
