@@ -2,7 +2,7 @@
 
 <div style="font-size: .8em; margin-bottom: 2em;">WUNDERMAN</div>
 
-#**A11y**
+# **A11y**
 ## Web Content Accessibility Guidelines 2.0
 
 
@@ -11,6 +11,7 @@
 <div style="font-size: .7em;"><i class="fa fa-twitter" aria-hidden="true"></i> [@LucasDasso](https://twitter.com/lucasdasso)</div>
 <br/>
 <div style="font-size: .6em;">September 2016</div>
+
 ---
 
 ## What are the WCAG?
@@ -29,6 +30,7 @@ Current WCAG version is 2.0.
 
 
 ---
+
 <!-- .slide: data-background-color="#005285" -->
 
 ## 4 Principles
@@ -38,7 +40,7 @@ Current WCAG version is 2.0.
 3. Understandable
 4. Robust
 
-
+---
 
 ### 1. Perceivable
 
@@ -51,6 +53,7 @@ Current WCAG version is 2.0.
 
 Note: Some of your users may have difficulties with one or more of their senses, making them reliant on assistive technology to browse your website.
 
+--
 
 #### Guidelines that apply
 
@@ -59,7 +62,7 @@ Note: Some of your users may have difficulties with one or more of their senses,
 - Guideline 1.3: Adaptable
 - Guideline 1.4: Distinguishable
 
-
+---
 
 ### 2. Operable
 
@@ -69,7 +72,7 @@ Note: Some of your users may have difficulties with one or more of their senses,
 
 <p class="fragment">Web designers must be aware of the different devices the users can manage to use the website, so they must **make** the **user interface** components and **navigation** elements in a way that **everyone can “operate” with it**.</p>
 
-
+--
 
 #### Guidelines that apply
 
@@ -78,7 +81,7 @@ Note: Some of your users may have difficulties with one or more of their senses,
 - Guideline 2.3: Seizures
 - Guideline 2.4: Navigable
 
-
+---
 
 ### 3. Understandable
 
@@ -89,7 +92,7 @@ Note: Some of your users may have difficulties with one or more of their senses,
 
 <p><span class="fragment">Your website must use **clear terms**</span><span class="fragment">, have **simple instructions**</span><span class="fragment"> and **explain complex issues**.</span></p>
 
-
+--
 
 #### Guidelines that apply
 
@@ -97,9 +100,9 @@ Note: Some of your users may have difficulties with one or more of their senses,
 - Guideline 3.2: Predictable
 - Guideline 3.3: Input Assistance
 
+---
 
-
-### 4. Robust
+###  4. Robust
 
 
 ![Robust](img/html_code.jpg)
@@ -108,9 +111,9 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
 
 <p class="fragment">This is the **most-technology-dependant** principle of all. It relies on the capacity of the website to be transmitted and interpreted by the user agents.</p>
 
-
+--
  
- #### Examples of user agents
+#### Examples of user agents
  
  - Browsers (Internet Explorer, Firefox, Safari…).
  - Media players (Quicktime, Realplayer, Windows Media Player…).
@@ -118,7 +121,7 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
  - Other programs, including assistive technologies (pointers, magnifier, screen readers…).
 
  
-
+--
 
 #### Guidelines that apply
 
@@ -128,14 +131,14 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
 ---
 <!-- .slide: data-background-color="#005285" -->
 
-## 3 levels of <br> conformance
+## 3 levels of conformance
 
 
 
 ### Level A
 <p class="fragment" data-fragment-index="1">A Web content developer **must** satisfy this checkpoint. </p>
 
-###<span class="fragment highlight-green" data-fragment-index="4"> Level AA</span>
+### <span class="fragment highlight-green" data-fragment-index="4"> Level AA</span>
 <p class="fragment" data-fragment-index="2">A Web content developer **should** satisfy this checkpoint.</p>
 
 
@@ -143,7 +146,7 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
 <p class="fragment" data-fragment-index="3">A Web content developer **may** address this checkpoint.</p>
 
 
-
+---
 
 ### Level A - "Must"
 
@@ -151,7 +154,7 @@ The most basic web accessibility features.
 
 <p class="fragment">Achieve a **minimum level of accessibility** through **markup, scripting, or other technologies** that interact with or enable access through user agents, including assistive technologies.</p>
 
-
+--
 
 #### Success criteria 
 
@@ -161,6 +164,7 @@ The most basic web accessibility features.
 	<li class="fragment">**Easiest** implementation.</li>
 </ul>
 
+--- 
 
 ### Level AA - "Should"
 
@@ -174,7 +178,7 @@ Deals with the biggest and most common barriers for disabled users.
 </ol>
 </div>
 
-
+--
 
 #### Success criteria
 
@@ -186,7 +190,7 @@ Deals with the biggest and most common barriers for disabled users.
 	<li class="fragment">**Reasonably** easy implementation.</li>
 </ul>
 	
-
+---
 
 ### Level AAA - "May"
 
@@ -194,6 +198,7 @@ The highest (and **most complex**) level of web accessibility.
 
 <p class="fragment">Achieve **additional** accessibility **enhancements** for people with disabilities.</p>
 
+--
 
 #### Success criteria
 
@@ -204,16 +209,22 @@ The highest (and **most complex**) level of web accessibility.
 </ul>
 
 ---
-<!-- .slide: data-background-color="#005285" -->
-
-## Any questions so far?
-
----
 
 <!-- .slide: data-background-color="#005285" -->
 # Extras
 
+---
 
+## Tools
+
+- [WAVE: Web Accessibility evaluation tool](http://wave.webaim.org/) ([Chrome add-on](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)).
+- [Colour Contrast Analyzer](http://webaim.org/resources/contrastchecker/) ([PC](https://github.com/ThePacielloGroup/CCA-Win/releases/) / [MAC](https://github.com/ThePacielloGroup/CCA-OSX/releases/)).
+- [Colour Contrast Analyzer by accessibility.oit.ncsu.edu chrome add-on](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?utm_source=chrome-app-launcher-info-dialog).
+
+- [NVDA: free screen reader](http://www.nvaccess.org/)
+	- [Extra Voices for NVDA](https://github.com/nvaccess/nvda/wiki/ExtraVoices)
+
+---
 
 ## Suggested Reading
 
@@ -226,7 +237,7 @@ The highest (and **most complex**) level of web accessibility.
 - [Designing for Screen Reader Compatibility](http://webaim.org/techniques/screenreader/).
 - [Accesible calendar example](https://www.southwest.com/).
 
-
+---
 
 - [Visual Disabilities](http://webaim.org/articles/visual/).
 - [Web Accessibility for Designers](http://webaim.org/resources/designers/).
@@ -240,31 +251,17 @@ The highest (and **most complex**) level of web accessibility.
 - [Aaron Cannon, Blind Web Developer](https://vimeo.com/1157346).
 - [Jamaican Vacation Hoax](https://www.youtube.com/watch?v=23H8IdaS3tk). About automatic captions fails.
 
-
-
-## Tools
-
-- [WAVE: Web Accessibility evaluation tool](http://wave.webaim.org/) ([Chrome add-on](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)).
-- [Colour Contrast Analyzer](http://webaim.org/resources/contrastchecker/) ([PC](https://github.com/ThePacielloGroup/CCA-Win/releases/) / [MAC](https://github.com/ThePacielloGroup/CCA-OSX/releases/)).
-- [Colour Contrast Analyzer by accessibility.oit.ncsu.edu chrome add-on](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?utm_source=chrome-app-launcher-info-dialog).
-
-- [NVDA: free screen reader](http://www.nvaccess.org/)
-	- [Extra Voices for NVDA](https://github.com/nvaccess/nvda/wiki/ExtraVoices)
-
 ---
 
-<!-- .slide: data-background-color="#005285" -->
-![](img/how_to_read_grandma.jpg)
+## Thank You!
 
-	
----
-
-
-##Thank You!
-
-### Questions?
+Questions?
 
 <br/>
-![](img/qrcode.svg)<br/>
-<small>[http://bit.ly/2cGcgX4](http://bit.ly/2cGcgX4)</small>
+<br/>
+<small>
+	Download this presentation at:
+	<br/>![](img/qrcode.svg)
+	<br/>[http://bit.ly/2cGcgX4](http://bit.ly/2cGcgX4)
+</small>
 
