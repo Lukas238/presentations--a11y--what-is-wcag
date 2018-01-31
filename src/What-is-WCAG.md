@@ -1,6 +1,15 @@
+---
+title: A11Y - Wunderman / MSC
+theme: ../wunderman
+---
+
 <!-- .slide: data-background-color="#005285" -->
 
-<div style="font-size: .8em; margin-bottom: 2em;">WUNDERMAN</div>
+
+
+<br class="print-only"/>
+
+<div style="font-size: .7em; margin-bottom: 2em;">WUNDERMAN \ MSC</div>
 
 # **A11y**
 ## Web Content Accessibility Guidelines 2.0
@@ -14,19 +23,19 @@
 
 ---
 
-## What are the WCAG?
+## What are the <u>WCAG</u>
 
 **WCAG** are part of a series of web accesibility guidelines published by the **Web Accessibility Initiative** (WAI).
 
-The WAI in turn is part of the **World Wide Web Consortium** (W3C), the main international standards organization for the Internet.
+The **WAI** in turn is part of the **World Wide Web Consortium** (W3C), the main international standards organization for the Internet.
 
 Current WCAG version is 2.0.
 
-
+---
 
 ### What is this for?
 
-<p><span class="fragment">They are a set of guidelines that specify how to make content **accessible**,</span> <span class="fragment">primarily for people with **disabilities**</span><span class="fragment"> —but also for all user agents,</span> <span class="fragment">including **highly limited devices**, such as mobile phones.</span></p>
+<p class="fragment">They are a set of guidelines that specify how to make content <span class="fragment highlight-blue">**accessible**</span>, primarily for people with <span class="fragment highlight-blue">**disabilities**</span> —but also for all user agents, including <span class="fragment highlight-blue">**highly limited devices**</span>, such as mobile phones.</p>
 
 
 ---
@@ -90,7 +99,7 @@ Note: Some of your users may have difficulties with one or more of their senses,
 
 ![undrstandable](img/simplicity-quotes-3.jpg)
 
-<p><span class="fragment">Your website must use **clear terms**</span><span class="fragment">, have **simple instructions**</span><span class="fragment"> and **explain complex issues**.</span></p>
+<p class="fragment">Your website must use **clear terms**, have **simple instructions** and **explain** complex issues.</p>
 
 --
 
@@ -109,8 +118,14 @@ Note: Some of your users may have difficulties with one or more of their senses,
 
 Content must be interpreted **reliably** by a wide variety of user agents, including **assistive technologies**.
 
-<p class="fragment">This is the **most-technology-dependant** principle of all. It relies on the capacity of the website to be transmitted and interpreted by the user agents.</p>
+<p class="fragment">This is the **most-technology-dependant** principle of all. <br/> It relies on the capacity of the website to be transmitted and interpreted by the user agents.</p>
 
+--
+
+#### Guidelines that apply
+
+ - Guideline 4.1:  Compatible
+ 
 --
  
 #### Examples of user agents
@@ -121,12 +136,6 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
  - Other programs, including assistive technologies (pointers, magnifier, screen readers…).
 
  
---
-
-#### Guidelines that apply
-
- - Guideline 4.1:  Compatible
- 
  
 ---
 <!-- .slide: data-background-color="#005285" -->
@@ -135,14 +144,14 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
 
 
 
-### Level A
+### <span  class="fragment" data-fragment-index="1">Level A</span>
 <p class="fragment" data-fragment-index="1">A Web content developer **must** satisfy this checkpoint. </p>
 
-### <span class="fragment highlight-green" data-fragment-index="4"> Level AA</span>
+### <i class="fa fa-hand-o-right fragment" data-fragment-index="4" aria-hidden="true"></i>  <span  class="fragment" data-fragment-index="2">Level AA</span> <i class="fa fa-hand-o-left fragment" data-fragment-index="4" aria-hidden="true"></i>
 <p class="fragment" data-fragment-index="2">A Web content developer **should** satisfy this checkpoint.</p>
 
 
-### Level AAA
+###  <span  class="fragment" data-fragment-index="3">Level AAA</span>
 <p class="fragment" data-fragment-index="3">A Web content developer **may** address this checkpoint.</p>
 
 
@@ -159,12 +168,12 @@ The most basic web accessibility features.
 #### Success criteria 
 
 <ul>
-	<li class="fragment">**High** impact on a **broad** array of user populations.</li>
-	<li class="fragment">**Lowest** impact on the **presentation** and **business** **logic** of the site.</li>
-	<li class="fragment">**Easiest** implementation.</li>
+	<li>**High** impact on a **broad** array of user populations.</li>
+	<li>**Lowest** impact on the **presentation** and **business** **logic** of the site.</li>
+	<li>**Easiest** implementation.</li>
 </ul>
 
---- 
+---
 
 ### Level AA - "Should"
 
@@ -183,11 +192,11 @@ Deals with the biggest and most common barriers for disabled users.
 #### Success criteria
 
 <ul>
-	<li class="fragment">**High** and **important** impact for users.
+	<li>**High** and **important** impact for users.
 	<br/>
 	Sometimes only **specific user populations** will be impacted.</li>
-	<li class="fragment">May impose **changes** to a system’s presentation or business **logic**.</li>
-	<li class="fragment">**Reasonably** easy implementation.</li>
+	<li>May impose **changes** to a system’s presentation or business **logic**.</li>
+	<li>**Reasonably** easy implementation.</li>
 </ul>
 	
 ---
@@ -203,15 +212,16 @@ The highest (and **most complex**) level of web accessibility.
 #### Success criteria
 
 <ul>
-	<li class="fragment">Focused on **improvements** for **specific** user populations.</li>
-	<li class="fragment">**Difficult** or expensive to **adhere to**, depending on **platform** limitations.</li>
-	<li class="fragment">Are **not applicable** to **all** web resources.</li>
+	<li>Focused on **improvements** for **specific** user populations.</li>
+	<li>**Difficult** or expensive to **adhere to**, depending on **platform** limitations.</li>
+	<li>Are **not applicable** to **all** web resources.</li>
 </ul>
 
 ---
 
 <!-- .slide: data-background-color="#005285" -->
 # Extras
+<!-- <img src="../img/undraw_specs2_2jb3.svg" alt="" /> -->
 
 ---
 
@@ -237,7 +247,7 @@ The highest (and **most complex**) level of web accessibility.
 - [Designing for Screen Reader Compatibility](http://webaim.org/techniques/screenreader/).
 - [Accesible calendar example](https://www.southwest.com/).
 
----
+--
 
 - [Visual Disabilities](http://webaim.org/articles/visual/).
 - [Web Accessibility for Designers](http://webaim.org/resources/designers/).
@@ -253,8 +263,11 @@ The highest (and **most complex**) level of web accessibility.
 
 ---
 
-## Thank You!
 
+## Thank You!
+<!-- <img src="../img/undraw_Astronaut_0o7w.svg" alt="" /> -->
+
+<!-- 
 Questions?
 
 <br/>
@@ -263,5 +276,5 @@ Questions?
 	Download this presentation at:
 	<br/>![](img/qrcode.svg)
 	<br/>[http://bit.ly/2cGcgX4](http://bit.ly/2cGcgX4)
-</small>
+</small> -->
 
