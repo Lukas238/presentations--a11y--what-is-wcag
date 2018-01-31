@@ -1,0 +1,123 @@
+/* @import url("bs-grids.css"); */
+
+@import url("white.css");
+/* @import 'https://rawgit.com/BafS/Gutenberg/master/dist/gutenberg.css' print; */
+
+/* @import 'https://rawgit.com/filippo/1393594/raw/99e6633bc1cfdea8f93caadb33537fc7d903d477/print.css' print; */
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato:300');
+@import '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+body:after {
+	background: url(../img/logo.png) no-repeat top left;
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 268px;
+	height: 58px;
+	z-index: 1000;
+}
+
+.reveal {
+	font-family: Lato !important;
+	font-weight: 300 !important;
+}
+
+blockquote {
+	line-height: 1.5em !important;
+	font-style: normal !important;
+	box-shadow: none !important;
+	font-family: 'Amatic SC', cursive !important;
+	font-weight: 300 !important;
+}
+
+blockquote:before {
+	content: '\201C';
+	position: absolute;
+	top: 0.25em;
+	left: -0.15em;
+	color: #e7e6e4;
+	font-size: 6em;
+	z-index: -1;
+}
+
+@media screen {
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+		color: #003399 !important;
+	}
+	.has-dark-background,
+	.has-light-background {
+		color: #fff !important;
+	}
+	.has-dark-background a,
+	.has-light-background a {
+		color: #fff !important;
+		/*text-decoration: underline;*/
+	}
+	.has-dark-background h1,
+	.has-dark-background h2,
+	.has-dark-background h3,
+	.has-dark-background h4,
+	.has-dark-background h5,
+	.has-dark-background h6,
+	.has-light-background h1,
+	.has-light-background h2,
+	.has-light-background h3,
+	.has-light-background h4,
+	.has-light-background h5,
+	.has-light-background h6 {
+		color: #fff !important;
+	}
+	.reveal section img {
+		border: none;
+		box-shadow: none;
+	}
+	.reveal blockquote {
+		width: 80% !important;
+	}
+	.reveal blockquote p {
+		margin: 0;
+	}
+	img {
+		max-width: 50vh !important;
+	}
+	.reveal .print-only {
+		display: none;
+	}
+}
+
+@media print {
+	.reveal {
+		font-size: 2.1em;
+	}
+	.reveal img {
+		border: none !important;
+	}
+	img {
+		max-width: 50vh !important;
+		box-shadow: none !important;
+	}
+	ul {
+		min-width: 40%;
+		max-width: 90% !important;
+		margin: 0 auto !important;
+	}
+	.reveal .slides section img {
+		margin: 0 auto !important;
+		max-width: 90%;
+		display: block;
+	}
+	.reveal .slides section {
+		page-break-after: always !important;
+	}
+	.reveal .slides section>section {
+		page-break-after: avoid !important;
+		padding: 10px 20px !important;
+	}
+}
