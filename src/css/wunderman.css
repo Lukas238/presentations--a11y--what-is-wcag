@@ -7,18 +7,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato:300');
 @import '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
-body:after {
+.reveal:after {
 	background: url(../img/logo.png) no-repeat top left;
 	content: '';
 	display: block;
 	position: fixed;
-	top: 0;
-	left: 0;
-	width: 268px;
-	height: 58px;
+	bottom: 15px;
+	left: 15px;
+	width: 270px;
+	height: 38px;
 	z-index: 1000;
+	background-size: 100%;
+	transition: filter 500ms ease;
 }
 
+.reveal.has-dark-background:after {
+	filter: brightness(0) invert(1);
+}
 .reveal {
 	font-family: Lato !important;
 	font-weight: 300 !important;
