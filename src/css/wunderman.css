@@ -1,29 +1,11 @@
 /* @import url("bs-grids.css"); */
-
 @import url("white.css");
-/* @import 'https://rawgit.com/BafS/Gutenberg/master/dist/gutenberg.css' print; */
-
-/* @import 'https://rawgit.com/filippo/1393594/raw/99e6633bc1cfdea8f93caadb33537fc7d903d477/print.css' print; */
-
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato:300');
 @import '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
-.reveal:after {
-	background: url(../img/logo.png) no-repeat top left;
-	content: '';
-	display: block;
-	position: fixed;
-	bottom: 15px;
-	left: 15px;
-	width: 270px;
-	height: 38px;
-	z-index: 1000;
-	background-size: 100%;
-	transition: filter 500ms ease;
-}
 
-.reveal.has-dark-background:after {
-	filter: brightness(0) invert(1);
-}
+
+
+
 .reveal {
 	font-family: Lato !important;
 	font-weight: 300 !important;
@@ -48,6 +30,24 @@ blockquote:before {
 }
 
 @media screen {
+
+	.reveal::after{
+		background: url(../img/logo.png) no-repeat top left;
+		content: '';
+		display: block;
+		position: fixed;
+		bottom: 15px;
+		left: 15px;
+		width: 270px;
+		height: 38px;
+		z-index: 1000;
+		background-size: 100%;
+		transition: filter .25s ease;
+	}
+	.reveal.has-dark-background::after {
+		filter: brightness(0) invert(1) !important;
+	}
+	
 	.reveal h1,
 	.reveal h2,
 	.reveal h3,
@@ -98,9 +98,29 @@ blockquote:before {
 }
 
 @media print {
+
+	div.slide-background::after{
+		background: url(../img/logo.png) no-repeat top left;
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+		width: 270px;
+		height: 38px;
+		z-index: 1000;
+		background-size: 100% 200%;
+		transition: filter .25s ease;
+	}
+	div.slide-background[data-background-hash]::after {
+		background-position: bottom left;
+	}
+
+
 	.reveal {
 		font-size: 2.1em;
 	}
+	
 	.reveal img {
 		border: none !important;
 	}
