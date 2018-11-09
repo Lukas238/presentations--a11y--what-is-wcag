@@ -5,8 +5,6 @@ theme: ../wunderman
 
 <!-- .slide: data-background-color="#005285" -->
 
-
-
 <br class="print-only"/>
 
 <div style="font-size: .7em; margin-bottom: 2em;">WUNDERMAN \ MSC</div>
@@ -19,7 +17,7 @@ theme: ../wunderman
 <div style="font-size: .7em;">Lucas Dasso - Tech Lead / Developer</div>
 <div style="font-size: .7em;"><i class="fa fa-twitter" aria-hidden="true"></i> [@LucasDasso](https://twitter.com/lucasdasso)</div>
 <br/>
-<div style="font-size: .6em;">September 2016</div>
+<div style="font-size: .6em;">Sep 2016</div>
 
 ---
 
@@ -120,29 +118,28 @@ Content must be interpreted **reliably** by a wide variety of user agents, inclu
 
 <p class="fragment">This is the **most-technology-dependant** principle of all. <br/> It relies on the capacity of the website to be transmitted and interpreted by the user agents.</p>
 
---
+---
+
 
 #### Guidelines that apply
 
- - Guideline 4.1:  Compatible
- 
---
- 
+- Guideline 4.1:  Compatible
+
+---
+
+
 #### Examples of user agents
  
- - Browsers (Internet Explorer, Firefox, Safari…).
- - Media players (Quicktime, Realplayer, Windows Media Player…).
- - Plugins (e.g. those that help your browser perform specific functions).
- - Other programs, including assistive technologies (pointers, magnifier, screen readers…).
+- Browsers (Internet Explorer, Firefox, Safari…).
+- Media players (Quicktime, Realplayer, Windows Media Player…).
+- Plugins (e.g. those that help your browser perform specific functions).
+- Other programs, including assistive technologies (pointers, magnifier, screen readers…).
 
- 
- 
+
 ---
+
 <!-- .slide: data-background-color="#005285" -->
-
 ## 3 levels of conformance
-
-
 
 ### <span  class="fragment" data-fragment-index="1">Level A</span>
 <p class="fragment" data-fragment-index="1">A Web content developer **must** satisfy this checkpoint. </p>
@@ -163,7 +160,7 @@ The most basic web accessibility features.
 
 <p class="fragment">Achieve a **minimum level of accessibility** through **markup, scripting, or other technologies** that interact with or enable access through user agents, including assistive technologies.</p>
 
---
+---
 
 #### Success criteria 
 
@@ -187,7 +184,8 @@ Deals with the biggest and most common barriers for disabled users.
 </ol>
 </div>
 
---
+
+---
 
 #### Success criteria
 
@@ -198,8 +196,10 @@ Deals with the biggest and most common barriers for disabled users.
 	<li>May impose **changes** to a system’s presentation or business **logic**.</li>
 	<li>**Reasonably** easy implementation.</li>
 </ul>
+
 	
 ---
+
 
 ### Level AAA - "May"
 
@@ -207,7 +207,8 @@ The highest (and **most complex**) level of web accessibility.
 
 <p class="fragment">Achieve **additional** accessibility **enhancements** for people with disabilities.</p>
 
---
+
+---
 
 #### Success criteria
 
